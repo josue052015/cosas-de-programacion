@@ -7,8 +7,10 @@ img {
         transform: translate(100%);
     }
 }
-    @keyframes mover2 {
+   /* @keyframes mover2 {
         0%{
             transform: translate(100%);
         }
+        
     }
+*/

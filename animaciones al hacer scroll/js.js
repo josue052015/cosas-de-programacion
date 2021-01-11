@@ -7,9 +7,16 @@ window.addEventListener('scroll',function(){
         animacion.style.animation = 'mover 1s ease-out'
         animacion.style.opacity = 100
     }
+    
     let tamañopantalla2 = window.innerHeight - 55;
     if(posicion > tamañopantalla2){
-        animacion.style.animation = 'mover 1s ease-out'
+        animacion.style.animation = null
         animacion.style.opacity = 0
     }
+    
+   /*
+   if(animacion.style.opacity =100 ){
+       
+   }
+   */
 })
