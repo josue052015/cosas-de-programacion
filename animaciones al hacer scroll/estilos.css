@@ -1,8 +1,9 @@
 img {
     width: 400px;
+    opacity: 0;
 }
 @keyframes mover{
-    50%{
+    0%{
         transform: translate(100%);
     }
 }
